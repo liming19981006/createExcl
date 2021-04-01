@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.moji.mjweather">
+
+    <application
+        android:name="com.tencent.tmsecure.demo.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_coral"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_coral"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="TZ_APP_KEY"
+            android:value="qwqwq381fa7970a045342b004c42d5e" />
+        <meta-data
+            android:name="TZ_APP_SECRET"
+            android:value="c5c1a932c4749cd1be1db53419c97457" />
+        <meta-data
+            android:name="TZ_APP_CHANNEL"
+            android:value="TZ-001" />
+
+        <activity
+            android:name="com.tencent.tmsecure.demo.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.tencent.tmsecure.demo.ExcelPreviewActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    </application>
+
+
+</manifest>

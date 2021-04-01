@@ -1,0 +1,3 @@
+rootProject.name='ExclDemo'
+include ':app', ':coraltester_v3'
+include ':lib'
